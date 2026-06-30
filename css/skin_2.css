@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+  }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(#073c70, #00aeb5); /*#13c0cc*/
+  color: #fff;
+  }
+
+h1, h2, h3 {
+  font-weight: 900;
+  }
+
+a {
+  color: #b4e5f0;
+  }
+  
+
+#header-image { /*suppress header image*/
+  display: none;
+  }
+  
+#header {
+  margin: 15px auto;
+  width: 80%;
+  }
+
+.column-wrapper {
+  width: 80%;
+  column-gap: 30px;
+  }
+  
+.post, .post-scroller {
+  border: 7px solid #fff;
+  border-radius: 25px;
+  margin-bottom:30px;
+  }
+  
+.post-inner {
+  margin: 20px;
+  }
+
+.readmore-link a {
+  font-weight: bold;
+  color: #fff;
+  }
+  
+#footer {
+  background: none;
+  font-size: 0.9em;
+  }
+  
+#footer a {
+  color: #e8fafe;
+  }
+  
+#footer li {
+  padding-left:0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  list-style-type: none;
+  }
+  
+.footer-columns {
+  border:0px black solid;
+  margin: 0 auto;
+  width: 75%;
+  }
+  
+.footer-column {
+  text-align: left;
+  height:6em;
+  width: 100%;
+  padding: 10px;
+  padding-top:0;
+  }
