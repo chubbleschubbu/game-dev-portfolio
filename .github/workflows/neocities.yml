@@ -1,0 +1,19 @@
+name: Deploy to Neocities
+
+on:
+  push:
+    branches:
+      - main # Change this to 'master' if your default branch uses that name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false # Set to true if you want GitHub to delete files on Neocities that aren't in your repository
