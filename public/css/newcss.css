@@ -7,6 +7,22 @@ This isn't very well coded, though; if you're looking for a windowed style, you 
 
 ***/
 
+@font-face {
+  font-family: Nunito;
+  src: url('/fonts/Nunito-Black.ttf');
+  font-weight: bold;
+}
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url('/fonts/AtkinsonHyperlegible-Regular.ttf');
+}
+
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
+    font-weight: bold;
+}
+
 
 body {
   background: #98e9f4 url("../images/bg.png") no-repeat fixed;
@@ -14,7 +30,7 @@ body {
   background-position:center;
 	background-size: cover;
   color: #111123;
-  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-family: 'Atkinson Hyperlegible', Verdana, Tahoma, sans-serif;
   font-size: 15px;
   overflow-x: auto; /*this was causing issues*/
 }
